@@ -54,6 +54,10 @@ h1{font-size:clamp(2.6rem,4.1vw,3.75rem);letter-spacing:-.065em;line-height:1.36
 .section-heading{display:grid;grid-template-columns:240px 1fr;gap:36px;margin-bottom:47px}
 .section-heading .eyebrow{align-self:start;margin:8px 0 0}
 .section-heading h2{font-size:2rem;line-height:1.5;letter-spacing:-.055em;margin:0;font-weight:750}
+.section-heading{position:relative;padding-right:64px}
+.section-toggle{position:absolute;right:0;top:0;display:grid;place-items:center;width:44px;height:44px;padding:0;border:1px solid var(--line);border-radius:50%;background:transparent;color:var(--blue);font-size:28px;line-height:1;cursor:pointer}
+.section-toggle:hover{background:#2448e80a;border-color:var(--blue)}
+@media print{.section-toggle{display:none!important}#journey-content[hidden]{display:grid!important}#notes-content[hidden]{display:block!important}}
 .section-heading>div>p{color:var(--muted);font-size:.9375rem;line-height:1.85;margin:17px 0 0}
 .journey-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));list-style:none;padding:0;margin:0;border-top:1px solid #c9ced8;gap:0}
 .journey-item{padding:27px 24px 5px;border-right:1px solid var(--line);display:flex;flex-direction:column;min-width:0}

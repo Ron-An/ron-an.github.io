@@ -1,6 +1,19 @@
 /* 공개 소개용 문구입니다. 투자 내역이나 연락처는 넣지 않았습니다. */
 (() => {
   "use strict";
+  document.querySelectorAll(".section-toggle").forEach(button => {
+    const content = document.getElementById(button.getAttribute("aria-controls"));
+    const title = button.closest("section").querySelector("h2").textContent;
+    if (!content) return;
+    button.hidden = false;
+    button.addEventListener("click", () => {
+      const expanded = button.getAttribute("aria-expanded") !== "true";
+      button.setAttribute("aria-expanded", String(expanded));
+      button.setAttribute("aria-label", `${title} ${expanded ? "접기" : "펼치기"}`);
+      button.querySelector("span").textContent = expanded ? "−" : "+";
+      content.hidden = !expanded;
+    });
+  });
   const lenses = {
     startup: {
       number: "01", label: "STARTUP",
