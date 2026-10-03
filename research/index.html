@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>초기 스타트업 비교 | 안규남</title>
+  <meta name="description" content="프라이머와 YC의 공개 기업 소개 80건을 수집해 고객, AI 역할, 사업 분야를 비교한 탐색적 분석. 수집 방법, 검색 가능한 기업 목록, 인터랙티브 그래프를 제공합니다.">
+  <meta name="theme-color" content="#fafaf8">
+  <link rel="stylesheet" href="./style.css?v=1"><script src="./data.js?v=1" defer></script><script src="./app.js?v=1" defer></script>
+</head>
+<body>
+  <a class="skip" href="#method">본문으로 건너뛰기</a>
+  <header class="site-header wrap"><a class="brand" href="../"><span>a.</span> 안규남</a><a class="back" href="../">자기소개 홈페이지 ↗</a></header>
+  <main>
+    <section class="hero wrap" aria-labelledby="page-title">
+      <p class="eyebrow">인공지능과 법 · 과제 02 / DATA STUDY</p>
+      <h1 id="page-title">초기 스타트업은<br>무엇을 만드는가?</h1>
+      <p class="hero-deck">프라이머와 Y Combinator의 공개 기업 소개를 수집해<br class="desktop-br"> 고객 유형, AI의 역할, 사업 분야를 비교했습니다.</p>
+      <div class="scope-line"><span><i class="dot primer"></i>프라이머 24–26기 <strong>40개사</strong></span><span><i class="dot yc"></i>YC 미국 소재 표본 <strong>40개사</strong></span><span>2024–2025년 시작 배치 · 2026.10.03 수집</span></div>
+      <p class="scope-note">초기 창업 프로그램에서 선정된 기업의 <strong>현재 공개 소개</strong>를 비교합니다. 두 나라 전체의 대표 표본이나 기업의 현재 투자 단계에 대한 조사는 아닙니다.</p>
+    </section>
+    <nav class="section-nav" aria-label="페이지 순서"><div class="wrap"><a href="#method"><span>01</span> 방법과 한계</a><a href="#companies"><span>02</span> 기업 목록</a><a href="#findings"><span>03</span> 발견과 그래프</a></div></nav>
+
+    <section id="method" class="section wrap" aria-labelledby="method-title">
+      <div class="section-title"><p class="eyebrow">01 / METHODOLOGY</p><h2 id="method-title">먼저, 무엇을 어떻게 비교했나</h2><p>공식 소개는 직접 확인할 수 있는 1차 출처입니다. 다만 기업이 작성한 설명이므로, 성과를 독립적으로 검증한 자료와는 구분합니다.</p></div>
+      <div class="method-grid">
+        <article class="method-card"><span class="card-index">수집</span><h3>공식 공개 자료를 우선했습니다</h3><p>초기 스타트업은 재무·투자·창업자 정보의 공개 범위가 제한적입니다. 이번 분석은 로그인 없이 볼 수 있는 <a href="https://primer.kr/club?lang=ko" target="_blank" rel="noopener noreferrer">프라이머 클럽</a>과 <a href="https://www.ycombinator.com/companies" target="_blank" rel="noopener noreferrer">YC 공식 디렉터리</a>를 웹스크래핑과 공개 검색 데이터 수집으로 정리했습니다.</p><p>기업별 공식 소개 페이지도 별도로 내려받아 출처를 확인했습니다. 검색 가능한 목록에는 사업 요약, 분류 근거, 원문 링크를 남겼습니다.</p></article>
+        <article class="method-card"><span class="card-index">표본</span><h3>선정 연도의 비중을 맞췄습니다</h3><p>프라이머는 24·25·26기 공개 목록의 40개사를 모두 포함했습니다. 시작 연도는 2024년 23개사, 2025년 17개사입니다.</p><p>YC는 같은 연도 배치의 공개 기업 1,211개사 중 미국 소재 표시가 있는 1,014개사를 후보로 삼고, 2024년 23개사·2025년 17개사를 고정된 추출 규칙으로 골랐습니다. 인수·폐업 상태만으로 제외하지 않았습니다.</p></article>
+      </div>
+      <div class="limits"><h3>이 비교가 말할 수 있는 범위</h3><ul><li><strong>초기 기업의 출발점 비교입니다.</strong> 프로그램 선정 당시에도 진행 단계는 다양하며, 현재 모두 프리시드·시드라고 확인된 것은 아닙니다. <a href="https://www.ycombinator.com/about" target="_blank" rel="noopener noreferrer">YC도 다양한 단계의 기업이 참여한다고 설명합니다 ↗</a></li><li><strong>국가 효과와 투자사 선호를 분리할 수 없습니다.</strong> 프라이머 선정 기업을 국내 프로그램 표본으로 사용하며, 전 기업의 한국 법인·본사를 별도로 검증하지 않았습니다. YC의 미국 표시는 수집 시점 디렉터리 기준입니다.</li><li><strong>현재 소개가 과거 사업을 뜻하지는 않습니다.</strong> 배치는 2024–2025년이지만 사업 소개는 2026.10.03의 모습입니다. 사업 전환과 소개 수정이 반영될 수 있습니다.</li><li><strong>미확인은 ‘없다’가 아닙니다.</strong> 짧거나 빈 소개, 한·영 언어 차이, 설명 분량 차이가 분류에 영향을 줍니다. 프라이머는 고객 확인 불가 8개사, YC는 7개사이며 YC 1개사는 사업 소개가 비어 있습니다. 미공개 기업·비공개 정보는 수집하지 않았습니다.</li></ul></div>
+      <details class="method-details"><summary>분류 기준·수집 기록 자세히 보기 <span aria-hidden="true">+</span></summary>
+        <div class="detail-body"><div><h3>같은 기준으로 한 번씩 분류</h3><dl class="codebook"><dt>고객 유형</dt><dd>B2B는 기업·기관 및 업무 목적의 전문가·개발자 대상, B2C는 개인 생활·학습 목적, 혼합은 사업자와 개인 양쪽을 주요 대상으로 설명한 경우입니다. 소개만으로 판별하기 어려우면 확인 불가로 남겼습니다. 실제 매출 구성이나 결제 주체를 검증한 분류는 아닙니다.</dd><dt>AI 역할</dt><dd>제품·기능은 소개에서 AI·모델 기반 기능을 확인한 경우, 지원 인프라는 AI 개발·운영을 위한 데이터·평가·검색·냉각 등입니다. 단순 자동화나 회사명에 AI가 있다는 이유만으로 분류하지 않았습니다. 미확인은 비AI 기업을 뜻하지 않습니다.</dd><dt>사업 분야</dt><dd>가장 중심적인 제품·문제를 기준으로 7개 분야 또는 확인 불가 중 하나를 부여했습니다. 여러 분야에 걸친 기업도 중복 집계하지 않습니다. 공식 산업분류가 아닌 이번 비교를 위한 해석입니다.</dd><dt>분류 과정</dt><dd>AI가 수집된 소개를 요약·분류한 뒤 원문 설명과 다시 대조했습니다. 각 기업에 판단 근거를 남겼습니다. 별도의 복수 코더 검증은 없으므로 해석 차이가 있을 수 있습니다.</dd></dl></div>
+        <div><h3>추출·집계 규칙</h3><ol><li>프라이머 공식 페이지의 배치별 기업 카드를 렌더링 후 추출. 24기 13개, 25기 10개, 26기 17개를 확인했습니다.</li><li>YC 공식 디렉터리의 공개 검색 응답을 연도별로 수집. 2024년 590개, 2025년 621개 중 미국 표시 기업은 각각 495개, 519개였습니다.</li><li>각 연도 후보의 <code>SHA-256("startup-study-20261003:" + 기업 ID)</code> 값을 정렬해 앞에서 23개·17개를 선택했습니다. 결과를 보고 기업을 교체하지 않았습니다.</li><li>기업 단위로 중복을 제거하고 80개사 모두 원문 링크를 연결했습니다. 비율의 분모는 해당 그룹·연도의 전체 표본이며 확인 불가도 포함합니다.</li><li>로그인 정보·개인 연락처·비공개 투자 자료는 수집하지 않았습니다. 프라이머의 안내 간격에 맞춰 개별 페이지는 5초 이상 간격으로 요청했습니다.</li></ol><p class="micro">한 번 수집한 정적 데이터입니다. 웹페이지를 열 때 외부 사이트를 다시 수집하지 않습니다.</p><div class="download-links"><a href="./data/companies.csv" download>분류 데이터 CSV ↓</a><a href="./data/companies.json" download>JSON ↓</a><a href="./data/collection-log.json" download>수집 기록 ↓</a><a href="./reproduce/README.md">재현 안내 ↗</a></div></div></div>
+      </details>
+    </section>
+
+    <section id="companies" class="section company-section" aria-labelledby="companies-title"><div class="wrap">
+      <div class="section-title"><p class="eyebrow">02 / COMPANY EXPLORER</p><h2 id="companies-title">숫자 뒤의 기업을 확인하세요</h2><p>기업명·사업 설명으로 검색하고, ‘분류 근거’를 열어 해석과 원문을 확인할 수 있습니다.</p></div>
+      <div class="filters"><label class="search-label">기업 검색<input id="search" type="search" placeholder="예: 로봇, 회계, 개발, AI" autocomplete="off"></label><label>프로그램<select id="group-filter"><option value="all">전체 프로그램</option><option value="primer">프라이머</option><option value="yc">YC · 미국 표본</option></select></label><label>시작 연도<select id="year-filter"><option value="all">전체 연도</option><option value="2024">2024</option><option value="2025">2025</option></select></label><label>고객 유형<select id="customer-filter"><option value="all">전체 유형</option><option>B2B</option><option>B2C</option><option>혼합</option><option>확인 불가</option></select></label><button id="reset-filters" class="quiet-button" type="button">초기화</button></div>
+      <div class="list-meta"><p id="result-count" role="status" aria-live="polite"></p><a href="./data/companies.csv" download>전체 80개사 CSV ↓</a></div>
+      <div class="table-scroll"><table><caption class="sr-only">기업별 사업 요약과 분류</caption><thead><tr><th scope="col">기업 / 배치</th><th scope="col">사업 요약</th><th scope="col">고객</th><th scope="col">AI 역할</th><th scope="col">분야</th><th scope="col">확인</th></tr></thead><tbody id="company-rows"></tbody></table></div>
+      <p id="empty-state" class="empty" hidden>조건에 맞는 기업이 없습니다. 검색어나 필터를 바꿔보세요.</p>
+      <div class="pagination"><button id="previous" type="button" class="quiet-button">← 이전</button><span id="page-info" aria-live="polite"></span><button id="next" type="button" class="quiet-button">다음 →</button></div>
+      <p class="micro">목록의 검색·필터는 아래 비교 그래프의 표본을 바꾸지 않습니다. 그래프에서는 별도로 연도를 선택할 수 있습니다.</p>
+    </div></section>
+
+    <section id="findings" class="section wrap" aria-labelledby="findings-title">
+      <div class="section-title"><p class="eyebrow">03 / FINDINGS &amp; CHARTS</p><h2 id="findings-title">차이는 어디에서 나타났을까?</h2><p>발견 하나에 그래프 하나. 연도를 바꾸거나 막대를 눌러 해당 기업들을 직접 살펴보세요.</p></div>
+      <div class="chart-toolbar"><label>배치 시작 연도<select id="chart-year"><option value="all">2024–2025 전체</option><option value="2024">2024년</option><option value="2025">2025년</option></select></label><fieldset class="metric-toggle"><legend class="sr-only">그래프 표시 단위</legend><button type="button" data-unit="percent" aria-pressed="true">비율 %</button><button type="button" data-unit="count" aria-pressed="false">기업 수</button></fieldset><div class="legend"><span><i class="dot primer"></i>프라이머</span><span><i class="dot yc"></i>YC · 미국 표본</span></div></div>
+      <p class="chart-scope" id="chart-scope" role="status" aria-live="polite"></p>
+      <div id="charts"></div>
+      <div class="reading-note"><strong>결과를 읽는 법</strong><p>차이는 이 표본에서 관찰된 사업 소개의 구성 차이입니다. 국가별 창업 역량, 투자 성과 또는 AI 기술 수준의 우열을 뜻하지 않습니다. 소표본의 기술통계이며 통계적 유의성·인과관계를 검정하지 않았습니다.</p></div>
+    </section>
+  </main>
+  <noscript><p class="wrap empty">기업 검색과 그래프는 JavaScript를 사용합니다. <a href="./data/companies.csv">기업 데이터 CSV</a>를 내려받아 확인할 수 있습니다.</p></noscript>
+  <footer class="site-footer wrap"><span>© 2026 안규남 · 인공지능과 법</span><span>공개 자료 기반 탐색적 분석 · 2026.10.03</span><a href="#page-title">맨 위로 ↑</a></footer>
+</body></html>

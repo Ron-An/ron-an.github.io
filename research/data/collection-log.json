@@ -1,0 +1,806 @@
+{
+  "source": "Official public HTML profiles",
+  "collectedOn": "2026-10-03",
+  "records": [
+    {
+      "group": "primer",
+      "name": "베이직파이브(헤어비)",
+      "url": "https://primer.kr/qrx6zk25r369xmv314y5",
+      "file": "primer-qrx6zk25r369xmv314y5.html",
+      "status": 200,
+      "sha256": "9f1efb4c3d0cef559ed1eda53c1b21387a80f529723ca7982aea1d8856a3654d",
+      "pageTitle": "베이직파이브(헤어비) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "반조(손보다)",
+      "url": "https://primer.kr/3p4kj92ynrv3zm57q1x8",
+      "file": "primer-3p4kj92ynrv3zm57q1x8.html",
+      "status": 200,
+      "sha256": "8173c777202d8411079bd38d13b93c6dd61ec166cd6a3f8a54c123697c42a67a",
+      "pageTitle": "반조(손보다) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "하이젠버그",
+      "url": "https://primer.kr/91kwev26vej6g2y46jpg",
+      "file": "primer-91kwev26vej6g2y46jpg.html",
+      "status": 200,
+      "sha256": "091ec830871f6d4a029e62a8ed7b76749219486d984abbcccfb6d7afe469d468",
+      "pageTitle": "하이젠버그 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "에이치케이로지스틱스(배차킹)",
+      "url": "https://primer.kr/5r398nmnr3kw6mvwje7y",
+      "file": "primer-5r398nmnr3kw6mvwje7y.html",
+      "status": 200,
+      "sha256": "2f055ab53c6760efd3130e6390e35115631b8f370c5dc96b530d38042e6c0b6b",
+      "pageTitle": "에이치케이로지스틱스(배차킹) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "뮤지브",
+      "url": "https://primer.kr/y9e1xp2xyjw9wm7k35vz",
+      "file": "primer-y9e1xp2xyjw9wm7k35vz.html",
+      "status": 200,
+      "sha256": "72c2c27d67e899c0e9b0020dc90a540cbec43ed38cac4eb02f9f3f7567c22322",
+      "pageTitle": "뮤지브 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "프리더스(큐닷)",
+      "url": "https://primer.kr/4w67rj24q5ev9m5yq8ep",
+      "file": "primer-4w67rj24q5ev9m5yq8ep.html",
+      "status": 200,
+      "sha256": "e6793733bf358aaaaf2c37be2da076b5ec4ca02528b9c4602060d2099a09f0a4",
+      "pageTitle": "프리더스(큐닷) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "수니콘(리웨이크)",
+      "url": "https://primer.kr/ndvwx7283jkx9m3z6jpg",
+      "file": "primer-ndvwx7283jkx9m3z6jpg.html",
+      "status": 200,
+      "sha256": "6e30aa2512480e97fb578b704176947c0623c860dca22754be15536672865022",
+      "pageTitle": "수니콘(리웨이크) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "엘로케안(슈가디)",
+      "url": "https://primer.kr/5r398nmnr3k56mvwje7y",
+      "file": "primer-5r398nmnr3k56mvwje7y.html",
+      "status": 200,
+      "sha256": "e9905a0f2c58ece41a10bde744ef884dab5effeffdf844efe1d44bb319e2e7a3",
+      "pageTitle": "엘로케안(슈가디) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "스월엑스(SwirlX)",
+      "url": "https://primer.kr/5r398nmnr35e6mvwje7y",
+      "file": "primer-5r398nmnr35e6mvwje7y.html",
+      "status": 200,
+      "sha256": "a68e500f66ecdd74b558cfebe54e3776c84ee53ae2922c4e59acfba9ee933179",
+      "pageTitle": "스월엑스(SwirlX) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "민성(VCMS)",
+      "url": "https://primer.kr/ywk9j7298rxjxmgpqvnd",
+      "file": "primer-ywk9j7298rxjxmgpqvnd.html",
+      "status": 200,
+      "sha256": "95df8e1d9df926c721356a3b1857ddbf0914ea35a4e3b6588bcddbb5c917ed12",
+      "pageTitle": "민성(VCMS) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "빙글코퍼레이션(빙글)",
+      "url": "https://primer.kr/91kwev26vej4g2y46jpg",
+      "file": "primer-91kwev26vej4g2y46jpg.html",
+      "status": 200,
+      "sha256": "9fd4316495f8dd7cdc3ccb4d04e7c872e71b0c64bb43dfe305a59ca4f5a2277e",
+      "pageTitle": "빙글코퍼레이션(빙글) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "케어마인더(케어링크)",
+      "url": "https://primer.kr/ndvwx7283jkp9m3z6jpg",
+      "file": "primer-ndvwx7283jkp9m3z6jpg.html",
+      "status": 200,
+      "sha256": "5f0a6691ce4f37e1f8b8906578a905214f1c925779193d55e03b1d26cb33243d",
+      "pageTitle": "케어마인더(케어링크) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "타우린(클로라)",
+      "url": "https://primer.kr/qrx6zk25rw56qmv314y5",
+      "file": "primer-qrx6zk25rw56qmv314y5.html",
+      "status": 200,
+      "sha256": "e5d59e41ef9a4bb691a54fbd6b68fae1c951bc7f0dd7272c9399e4c8e45cb310",
+      "pageTitle": "타우린(클로라) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "크래빗",
+      "url": "https://primer.kr/1q3vdn2p9ye3wmxy49pr",
+      "file": "primer-1q3vdn2p9ye3wmxy49pr.html",
+      "status": 200,
+      "sha256": "49299a4f46aead2b8b220112daba571a634345a18d715b7ff431df382f6125dd",
+      "pageTitle": "크래빗 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "모난돌컴퍼니(럭키밀)",
+      "url": "https://primer.kr/4z7pvx2k1x66p2ek8653",
+      "file": "primer-4z7pvx2k1x66p2ek8653.html",
+      "status": 200,
+      "sha256": "cfa7ae1f45ffdd497fd4862ee8b8666b9f4de83031c392edfe68dde699917eef",
+      "pageTitle": "모난돌컴퍼니(럭키밀) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "블라이랩스(노못)",
+      "url": "https://primer.kr/xjqy1g2vwegrxm6vd54z",
+      "file": "primer-xjqy1g2vwegrxm6vd54z.html",
+      "status": 200,
+      "sha256": "3166e466f424ca38fb3aaa7b1b4feb127d036f266dac3d9be389df3d11f1bf88",
+      "pageTitle": "블라이랩스(노못) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "링카이브(왓츠인마이)",
+      "url": "https://primer.kr/d367nxm3qzp99mj98pv1",
+      "file": "primer-d367nxm3qzp99mj98pv1.html",
+      "status": 200,
+      "sha256": "9166bb518e2d05dcb19de7070928dcff28e3d80108457b475cceca7389a69cbd",
+      "pageTitle": "링카이브(왓츠인마이) - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "꾸다Pay",
+      "url": "https://primer.kr/ndvwx7283gny6m3z6jpg",
+      "file": "primer-ndvwx7283gny6m3z6jpg.html",
+      "status": 200,
+      "sha256": "d94d72e6e7004106d5e2fc2df6ae3f32114a044b77703bed562ce11ef600b97c",
+      "pageTitle": "꾸다Pay - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "데일리페이",
+      "url": "https://primer.kr/1q3vdn2p9315wmxy49pr",
+      "file": "primer-1q3vdn2p9315wmxy49pr.html",
+      "status": 200,
+      "sha256": "7ff90758e6cbb7e0984643608d7220b7ab531c42465b56c697b71e9c7e6d2c99",
+      "pageTitle": "데일리페이 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "무인화연구소",
+      "url": "https://primer.kr/4w67rj24qngegm5yq8ep",
+      "file": "primer-4w67rj24qngegm5yq8ep.html",
+      "status": 200,
+      "sha256": "9eea96e5b684ab7bb7733009d62dd4cb72cd1d9dae236c2f6ab4c0732592e7fc",
+      "pageTitle": "무인화연구소 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "봄찬",
+      "url": "https://primer.kr/1q3vdn2p9qxp4mxy49pr",
+      "file": "primer-1q3vdn2p9qxp4mxy49pr.html",
+      "status": 200,
+      "sha256": "868d4e8e1e6f08feb16ec3b95829ab9acd1b466b29cce5f8af3ee8aa46a9f0d0",
+      "pageTitle": "봄찬 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "브이지테크",
+      "url": "https://primer.kr/n8pw9x2zwpe51mg7yrqv",
+      "file": "primer-n8pw9x2zwpe51mg7yrqv.html",
+      "status": 200,
+      "sha256": "fedc98c57cf206c5d828081f7e3b088b18783c548359d92d2093f400d728f662",
+      "pageTitle": "브이지테크 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "아기고래",
+      "url": "https://primer.kr/7vgjr4m1n5qkk2dwpy86",
+      "file": "primer-7vgjr4m1n5qkk2dwpy86.html",
+      "status": 200,
+      "sha256": "367ea121ace84f163e61e4cabc2f015e3f9ee3e5516d454bde2085c8f5f2bc5d",
+      "pageTitle": "아기고래 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "윙크",
+      "url": "https://primer.kr/3p4kj92yndj15m57q1x8",
+      "file": "primer-3p4kj92yndj15m57q1x8.html",
+      "status": 200,
+      "sha256": "39af363c10d639bad7ef5c53ccb93a3444031530ffd608c9f31b8ac3fad01c94",
+      "pageTitle": "윙크 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "주토피아프레시",
+      "url": "https://primer.kr/y9e1xp2xy96pwm7k35vz",
+      "file": "primer-y9e1xp2xy96pwm7k35vz.html",
+      "status": 200,
+      "sha256": "f91b97397e11686e2d9fcd8c51f0d0609526bfa45ba5cc065a06638e15337a19",
+      "pageTitle": "주토피아프레시 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "쿰테라퓨틱스",
+      "url": "https://primer.kr/d367nxm3q48pwmj98pv1",
+      "file": "primer-d367nxm3q48pwmj98pv1.html",
+      "status": 200,
+      "sha256": "fe73c28204b5a433789c6d14b831402af626ccdf21615f519fcc516ac7dea42a",
+      "pageTitle": "쿰테라퓨틱스 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "큐파일럿",
+      "url": "https://primer.kr/4z7pvx2k19e872ek8653",
+      "file": "primer-4z7pvx2k19e872ek8653.html",
+      "status": 200,
+      "sha256": "7c7f0a19cc8c4586c86c354dc1b678188d02aaecb71ee12ae9c782f29a5def41",
+      "pageTitle": "큐파일럿 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "데스크룸",
+      "url": "https://primer.kr/7916x82r8dq5d24kpyg3",
+      "file": "primer-7916x82r8dq5d24kpyg3.html",
+      "status": 200,
+      "sha256": "2fcec990eea0306f797fa4676477f0067938724e7b3494254a9da0b57a552103",
+      "pageTitle": "데스크룸 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "돌핀",
+      "url": "https://primer.kr/91kwev26vn8p12y46jpg",
+      "file": "primer-91kwev26vn8p12y46jpg.html",
+      "status": 200,
+      "sha256": "a71f119a436bf8ce85014cf1c8a8ebaf48813ce9817a02b6663004d9355d6773",
+      "pageTitle": "돌핀 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "라이프클래스",
+      "url": "https://primer.kr/93nzyxmde4v142wk6r45",
+      "file": "primer-93nzyxmde4v142wk6r45.html",
+      "status": 200,
+      "sha256": "1dc516a6c5a7cc9c64d0765a599a1d6908739fae0e2690ffa60d7af7c852b1c9",
+      "pageTitle": "라이프클래스 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "로켓툴즈",
+      "url": "https://primer.kr/ywk9j729857j8mgpqvnd",
+      "file": "primer-ywk9j729857j8mgpqvnd.html",
+      "status": 200,
+      "sha256": "a36ba1643503e9407654adf98b2d81ba348442e736d7c32773bead350f0a9a67",
+      "pageTitle": "로켓툴즈 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "루모스",
+      "url": "https://primer.kr/1q3vdn2p9qxe4mxy49pr",
+      "file": "primer-1q3vdn2p9qxe4mxy49pr.html",
+      "status": 200,
+      "sha256": "54a0979e50bdb370e39b168b96debfdf3a732b6e81fe201dfb661f352c60b790",
+      "pageTitle": "루모스 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "뤼이도",
+      "url": "https://primer.kr/n8pw9x2zw4r9emg7yrqv",
+      "file": "primer-n8pw9x2zw4r9emg7yrqv.html",
+      "status": 200,
+      "sha256": "18fe05f4ed956c34490adfb3116ccf2eeeea6d2118637faf92c1e8ad48304e2b",
+      "pageTitle": "뤼이도 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "모지",
+      "url": "https://primer.kr/91kwev26vkwd62y46jpg",
+      "file": "primer-91kwev26vkwd62y46jpg.html",
+      "status": 200,
+      "sha256": "3bf5b38eca7e9689e4a82535605fef68d9dd0a632cf1422e7dca5da709a1af23",
+      "pageTitle": "모지 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "복스에이아이",
+      "url": "https://primer.kr/n5w9812gwxkyg24kpgze",
+      "file": "primer-n5w9812gwxkyg24kpgze.html",
+      "status": 200,
+      "sha256": "c9dae753fe7fb65712bb37a2f1bb40cfd039dea314efa04bff6de5a332098edf",
+      "pageTitle": "복스에이아이 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "볼비",
+      "url": "https://primer.kr/4z7pvx2k1w9n92ek8653",
+      "file": "primer-4z7pvx2k1w9n92ek8653.html",
+      "status": 200,
+      "sha256": "1d9ca10263922ef5851ec3fa0fbf32a81e4fcb1d9228420d7b6424f5b4135c06",
+      "pageTitle": "볼비 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "소이프트",
+      "url": "https://primer.kr/dwy5rvmjg189v2p46zn9",
+      "file": "primer-dwy5rvmjg189v2p46zn9.html",
+      "status": 200,
+      "sha256": "394d7a6db7ac8bcd3ae613fc091ad305d088ae98b7e88136507fe762789f04ea",
+      "pageTitle": "소이프트 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "펫바자",
+      "url": "https://primer.kr/5r398nmnr7gqrmvwje7y",
+      "file": "primer-5r398nmnr7gqrmvwje7y.html",
+      "status": 200,
+      "sha256": "c5327014636fd5eb0d0ad93cb8073b720f950294ce47ef5123eed584dfe364ef",
+      "pageTitle": "펫바자 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "데이터슬링",
+      "url": "https://primer.kr/d367nxm3q48vwmj98pv1",
+      "file": "primer-d367nxm3q48vwmj98pv1.html",
+      "status": 200,
+      "sha256": "15dcc7889666199d8f7a9b4c3838160bbe0f188edb4f6c0607cdd92186ed0e60",
+      "pageTitle": "데이터슬링 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "primer",
+      "name": "비에이엠코퍼레이션",
+      "url": "https://primer.kr/n5w9812gwxkng24kpgze",
+      "file": "primer-n5w9812gwxkng24kpgze.html",
+      "status": 200,
+      "sha256": "c530fde5dd9a9214cc48997f93218f8146bbfb89938b80ee77866a49524eb184",
+      "pageTitle": "비에이엠코퍼레이션 - Primer club - Primer",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "attimet",
+      "url": "https://www.ycombinator.com/companies/attimet",
+      "file": "yc-attimet.html",
+      "status": 200,
+      "sha256": "7ee9e7a55390732832cdb5455a7e343808260d912f5d6653114b74f7bf13bd64",
+      "pageTitle": "attimet: Building the Prime Radiant | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Solari AI",
+      "url": "https://www.ycombinator.com/companies/solari-ai",
+      "file": "yc-solari-ai.html",
+      "status": 200,
+      "sha256": "a83243ddf3abf51c2123095ae4a17df2e4c0e91cfcb3f9ee6bf3b13ac6e2c72d",
+      "pageTitle": "Solari AI: Gives non-technical team members agents that work right out of the box | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Curo",
+      "url": "https://www.ycombinator.com/companies/curo",
+      "file": "yc-curo.html",
+      "status": 200,
+      "sha256": "51c1fa5dfd0f0dde2285369b3e9741d0156f45e18330ed35c3c7452a93d1087b",
+      "pageTitle": "Curo: Electric fleets park and charge anywhere with Curo | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Afternoon.co",
+      "url": "https://www.ycombinator.com/companies/afternoon-co",
+      "file": "yc-afternoon-co.html",
+      "status": 200,
+      "sha256": "220e85891da387125b4337c9d68ecaf9be3525bf2cc2cf16ef427494b7b40495",
+      "pageTitle": "Afternoon.co: Bookkeeping, compliance and tax for founders | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Odo",
+      "url": "https://www.ycombinator.com/companies/odo",
+      "file": "yc-odo.html",
+      "status": 200,
+      "sha256": "7fea810a678a9c9e48391fa580bb28c0a7b7ffa4f97fcbd6f410e00b7c33da11",
+      "pageTitle": "Odo: Your email assistant because you deserve a better morning | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Sample",
+      "url": "https://www.ycombinator.com/companies/sample",
+      "file": "yc-sample.html",
+      "status": 200,
+      "sha256": "be57dd08ed1c28c191ca2751b20b2b273978df8c8b44172acd4d8ac3966fc839",
+      "pageTitle": "Sample: Flexible systems for clinical reasoning. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Aluna",
+      "url": "https://www.ycombinator.com/companies/aluna",
+      "file": "yc-aluna.html",
+      "status": 200,
+      "sha256": "9e6b9054f1bc21da05cd4299878dd2a5776e56465a34d0a23a81966b9bac47fc",
+      "pageTitle": "Aluna: Data for biomedical AI | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Driver",
+      "url": "https://www.ycombinator.com/companies/driver",
+      "file": "yc-driver.html",
+      "status": 200,
+      "sha256": "ae889f77eaf4cef54ddd8295c0e758a148a4c1348fa3d44304d6f112cc913b0f",
+      "pageTitle": "Driver: Context for Codebases | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Affil.ai",
+      "url": "https://www.ycombinator.com/companies/affil-ai",
+      "file": "yc-affil-ai.html",
+      "status": 200,
+      "sha256": "05870e511a8ff7ec0fc79bb7bf02265c75ca7a0a67e5d298c13308f272ea0ad6",
+      "pageTitle": "Affil.ai: AI Affiliate Network For Financial Companies | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Offstream",
+      "url": "https://www.ycombinator.com/companies/offstream",
+      "file": "yc-offstream.html",
+      "status": 200,
+      "sha256": "492e2711909a2aaa6522522aa9a916db443b1034357e5cfdb67fbbf1e9b81f46",
+      "pageTitle": "Offstream: Vanta for carbon compliance | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Trieve",
+      "url": "https://www.ycombinator.com/companies/trieve",
+      "file": "yc-trieve.html",
+      "status": 200,
+      "sha256": "43e9278bc34a005bf423e9840f78fa7b3e8f3cc83aecf9ce65233212cc8aedac",
+      "pageTitle": "Trieve: All-in-one API for search, RAG, & recommendations | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Symphony",
+      "url": "https://www.ycombinator.com/companies/symphony",
+      "file": "yc-symphony.html",
+      "status": 200,
+      "sha256": "351baabe4c73ef545fb73b15a602bf71d8b66d800c4c309248cc769ce5b290fb",
+      "pageTitle": "Symphony: Voice AI sims for next-gen employee training | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Vibe",
+      "url": "https://www.ycombinator.com/companies/vibe",
+      "file": "yc-vibe.html",
+      "status": 200,
+      "sha256": "d8474b770972da6f8ec20bd1ad516f21dbf355ba782359e017eb4b41eebd9003",
+      "pageTitle": "Vibe: Making everyone a software engineer | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Nuanced",
+      "url": "https://www.ycombinator.com/companies/nuanced",
+      "file": "yc-nuanced.html",
+      "status": 200,
+      "sha256": "48ad9c7a0904f808d3af595c854d6e33f18298d80c9f1e81374cd5abc8789c89",
+      "pageTitle": "Nuanced: the AI coding app for thinking.  | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Unusual",
+      "url": "https://www.ycombinator.com/companies/unusual",
+      "file": "yc-unusual.html",
+      "status": 200,
+      "sha256": "0047170df3c3d3f6158aa83b68a58eed844dd456264770972eec93da42ea39c3",
+      "pageTitle": "Unusual: Market to AI agents | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Sensei",
+      "url": "https://www.ycombinator.com/companies/sensei",
+      "file": "yc-sensei.html",
+      "status": 200,
+      "sha256": "70def07afa7da949dedb2f4a640fb06eec7866d044b33c9628b272332cc2c120",
+      "pageTitle": "Sensei: Robotic Training Data at Scale | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Onyx",
+      "url": "https://www.ycombinator.com/companies/onyx",
+      "file": "yc-onyx.html",
+      "status": 200,
+      "sha256": "f0c47bc5b3be459c0aa2735533b45b6400f9fda3dcfdcd919dca20e7a64fbde8",
+      "pageTitle": "Onyx: Open Source AI Chat | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "DreamRP",
+      "url": "https://www.ycombinator.com/companies/dreamrp",
+      "file": "yc-dreamrp.html",
+      "status": 200,
+      "sha256": "6d3da387422ffa3ade291a7645ac7524030951ad6bf4b5ddfaac4d30cb6797f4",
+      "pageTitle": "DreamRP: Tech and platforms for human creators and the entertainment industry | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Cloudglue",
+      "url": "https://www.ycombinator.com/companies/cloudglue",
+      "file": "yc-cloudglue.html",
+      "status": 200,
+      "sha256": "21739f2b8211e9f1b35e25029c58813ee0b78f160fbe7f98cf798d3dffd12fe0",
+      "pageTitle": "Cloudglue: The video context layer for AI. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Coval",
+      "url": "https://www.ycombinator.com/companies/coval",
+      "file": "yc-coval.html",
+      "status": 200,
+      "sha256": "4b5aa604acdcc98a64779b530096a9ff25f11c21eb0a850648ccffca543b9c92",
+      "pageTitle": "Coval: Simulation & Evaluation that scales voice and chat AI agents | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Argon AI, Inc.",
+      "url": "https://www.ycombinator.com/companies/argon-ai-inc",
+      "file": "yc-argon-ai-inc.html",
+      "status": 200,
+      "sha256": "5368e614c68dc68db499c773c0e227e032e0d91ac9003495521ead7fc73b0a39",
+      "pageTitle": "Argon AI, Inc.: AI for Pharma Intelligence  | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Eris Biotech",
+      "url": "https://www.ycombinator.com/companies/eris-biotech",
+      "file": "yc-eris-biotech.html",
+      "status": 200,
+      "sha256": "88d410deacdfcc17b5b5e2787fc0d8b9809997a9bfca1be96e72965984e800c3",
+      "pageTitle": "Eris Biotech: Our drugs engage the immune system to fight tumors | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Dench.com",
+      "url": "https://www.ycombinator.com/companies/dench-com",
+      "file": "yc-dench-com.html",
+      "status": 200,
+      "sha256": "7e0b4e46708fc8c40f438bc8000867a05afdaa2a37a0bd4aab42e6570a611148",
+      "pageTitle": "Dench.com: Workspace for your AI Agents, Build any Workflow. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Bezel",
+      "url": "https://www.ycombinator.com/companies/bezel",
+      "file": "yc-bezel.html",
+      "status": 200,
+      "sha256": "a4cb3e3f2580ce0fd6896cc40ed77390219f52fc93f3cfdc8380860063767a92",
+      "pageTitle": "Bezel: Digital AI humans that model clothes for e-commerce brands. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Peppr AI",
+      "url": "https://www.ycombinator.com/companies/peppr-ai",
+      "file": "yc-peppr-ai.html",
+      "status": 200,
+      "sha256": "f83503745e9fa33ca48dfe7d16fbb140bc5a402c0a6f0140316a20ee1d58507c",
+      "pageTitle": "Peppr AI: In-call AI teleprompter that helps reps close enterprise deals | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Vesence",
+      "url": "https://www.ycombinator.com/companies/vesence",
+      "file": "yc-vesence.html",
+      "status": 200,
+      "sha256": "7a9a274c4ed295b4f859298cb74a872d85c284e8d66d81664482b40d3d917ce7",
+      "pageTitle": "Vesence: AI for High-Stakes Work | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Imprezia",
+      "url": "https://www.ycombinator.com/companies/imprezia",
+      "file": "yc-imprezia.html",
+      "status": 200,
+      "sha256": "606f10443a73485df975bcd92e925436ced96b1e23f97376566504a658672c64",
+      "pageTitle": "Imprezia: The World's First AI Ad Network. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "IronLedger.ai",
+      "url": "https://www.ycombinator.com/companies/ironledger-ai",
+      "file": "yc-ironledger-ai.html",
+      "status": 200,
+      "sha256": "8a7dfca08b4bb3b993416d6a63852ab6f6dd892d66911a5bc8679e219e45b006",
+      "pageTitle": "IronLedger.ai: AI-enabled Corporate Cards and Invoice Processing for Real Estate | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Channel3",
+      "url": "https://www.ycombinator.com/companies/channel3",
+      "file": "yc-channel3.html",
+      "status": 200,
+      "sha256": "a36f3a8aa86681b062a14c069aa0569f6801328f2a81a3b459830f96f24dcb00",
+      "pageTitle": "Channel3: Database of every product on the internet | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Atlog",
+      "url": "https://www.ycombinator.com/companies/atlog",
+      "file": "yc-atlog.html",
+      "status": 200,
+      "sha256": "5ea592d0bc5ae61142b4566f70cf78ee531fc590cec590dcd724fb3e73ae5ffe",
+      "pageTitle": "Atlog: Outbound voice and text AI without a prompt | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "CareSwift",
+      "url": "https://www.ycombinator.com/companies/careswift",
+      "file": "yc-careswift.html",
+      "status": 200,
+      "sha256": "f1691f7b5df1eec0731d48e6346dccd4d54ddfce2a4c837491c2d100a00e4000",
+      "pageTitle": "CareSwift: AI scribe for Ambulance Reports | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Bluma",
+      "url": "https://www.ycombinator.com/companies/bluma",
+      "file": "yc-bluma.html",
+      "status": 200,
+      "sha256": "66e0fbd3a5556f45e44399303e696a89b3b06212da7f3d00a28413e140a4c8f4",
+      "pageTitle": "Bluma: Canva for short-form video ads | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Operand",
+      "url": "https://www.ycombinator.com/companies/operand",
+      "file": "yc-operand.html",
+      "status": 200,
+      "sha256": "8bc816e421a9033c563038c62039d2cb5cec0d95eba0e13a2c4eb9bbbe802ae8",
+      "pageTitle": "Operand:  | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "args",
+      "url": "https://www.ycombinator.com/companies/args",
+      "file": "yc-args.html",
+      "status": 200,
+      "sha256": "a9c88301a36fbbae97c71592e1de495e07d788a046c76b307c8dce2909b9a6d2",
+      "pageTitle": "args: A better GItHub | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Miyagi Labs",
+      "url": "https://www.ycombinator.com/companies/miyagi-labs",
+      "file": "yc-miyagi-labs.html",
+      "status": 200,
+      "sha256": "e7c84ebe42c811d0094979d2ecaf482718e0707a39b10194cd070021db974af8",
+      "pageTitle": "Miyagi Labs: AI tutors for exam prep | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Modelence",
+      "url": "https://www.ycombinator.com/companies/modelence",
+      "file": "yc-modelence.html",
+      "status": 200,
+      "sha256": "a4e8efcef8d0c2f1f898cbe95ab40641af87fd6d6cc7a408da83ed68593b6145",
+      "pageTitle": "Modelence: Production infrastructure on autopilot | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "YouLearn",
+      "url": "https://www.ycombinator.com/companies/youlearn",
+      "file": "yc-youlearn.html",
+      "status": 200,
+      "sha256": "15799b78fdf5086596a620a7513cb551cd893600398a950a00345bcd50ac205f",
+      "pageTitle": "YouLearn: AI tutor for each student.  | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Sennu AI",
+      "url": "https://www.ycombinator.com/companies/sennu-ai",
+      "file": "yc-sennu-ai.html",
+      "status": 200,
+      "sha256": "a0bdef93e2b4965b565c07300bb4d9b12f3ce47824c03942be7735c98deeacb5",
+      "pageTitle": "Sennu AI: We turn traditional companies into AI companies | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Parametric",
+      "url": "https://www.ycombinator.com/companies/parametric",
+      "file": "yc-parametric.html",
+      "status": 200,
+      "sha256": "dae08ba2d1e52232e1e44c7500933a71710ba5dc015a515af6f6f224ba07189a",
+      "pageTitle": "Parametric: Physical businesses that run themselves | Y Combinator",
+      "collectedOn": "2026-10-03"
+    },
+    {
+      "group": "yc",
+      "name": "Parse",
+      "url": "https://www.ycombinator.com/companies/parse-bot",
+      "file": "yc-parse-bot.html",
+      "status": 200,
+      "sha256": "43a0ab055de9bcec6f8adb068f7ac78d0bc852d6ad8e0203cbf22a130d57e743",
+      "pageTitle": "Parse: Build an API to interact with any website. | Y Combinator",
+      "collectedOn": "2026-10-03"
+    }
+  ]
+}
