@@ -1,0 +1,63 @@
+@font-face{font-family:Pretendard;font-style:normal;font-weight:100 900;font-display:swap;src:url('../../assets/fonts/PretendardVariable.woff2') format('woff2')}
+:root{--bg:#f3f3f0;--paper:#fff;--ink:#17212d;--muted:#626975;--line:#dfe2e6;--blue:#2448e8;--orange:#b8491d;--soft-orange:#fff0e7}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;font-family:Pretendard,system-ui,sans-serif;color:var(--ink);background:var(--bg);line-height:1.75;word-break:keep-all;overflow-wrap:anywhere}
+a{color:inherit;text-underline-offset:3px}
+a:hover{color:var(--blue)}
+a:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.skip{position:absolute;left:16px;top:-100px;background:#fff;padding:12px;z-index:20}
+.skip:focus{top:8px}
+
+.bar{position:sticky;top:0;z-index:5;background:#fffffff2;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar-inner{max-width:1120px;margin:0 auto;padding:12px 24px;display:flex;align-items:center;gap:16px}
+.bar .back{font-size:13px;text-decoration:none;color:var(--muted);white-space:nowrap}
+.bar .status{font-size:13px;color:var(--muted);flex:1;min-width:0}
+.bar .status b{color:var(--orange);font-weight:650}
+.button{display:inline-flex;align-items:center;min-height:38px;padding:7px 14px;border-radius:4px;background:var(--ink);color:#fff;text-decoration:none;font-size:13px;font-weight:600;white-space:nowrap}
+.button:hover{background:var(--blue);color:#fff}
+
+.layout{max-width:1120px;margin:0 auto;padding:32px 24px 64px;display:grid;grid-template-columns:190px minmax(0,1fr);gap:40px;align-items:start}
+.toc{position:sticky;top:76px;font-size:13px}
+.toc p{font-size:12px;color:var(--muted);margin:0 0 8px}
+.toc ol{list-style:none;margin:0;padding:0;border-left:1px solid var(--line)}
+.toc a{display:block;padding:5px 0 5px 14px;text-decoration:none;color:#45505e;margin-left:-1px;border-left:2px solid transparent}
+.toc a:hover{color:var(--blue)}
+.toc a[aria-current="true"]{color:var(--ink);font-weight:650;border-left-color:var(--ink)}
+
+.paper{background:var(--paper);border:1px solid var(--line);border-radius:4px;padding:56px 64px;max-width:860px;font-size:14.5px}
+.paper h1{font-size:30px;letter-spacing:-.04em;line-height:1.35;margin:0 0 14px}
+.paper .note{font-size:13px;color:#7a4a2a;background:var(--soft-orange);padding:12px 16px;border-radius:4px;margin:0 0 8px;line-height:1.75}
+.paper h2{font-size:21px;letter-spacing:-.03em;margin:48px 0 16px;padding-top:24px;border-top:2px solid var(--ink)}
+.paper h3{font-size:16px;margin:30px 0 8px}
+.paper p{margin:0 0 10px}
+.paper .headline{font-weight:650;font-size:15px;margin:14px 0 8px}
+.paper ul,.paper ol{margin:0 0 14px;padding-left:20px}
+.paper li{margin:4px 0}
+sup{font-size:10px;line-height:0;margin-left:1px}
+sup a{color:var(--blue);text-decoration:none;font-weight:600}
+sup a:hover{text-decoration:underline}
+.table-scroll{overflow-x:auto;margin:12px 0 16px}
+table{border-collapse:collapse;width:100%;font-size:12.5px;line-height:1.6}
+th{background:#f1f3f5;font-weight:650;text-align:left;padding:8px 10px;border:1px solid var(--line);white-space:nowrap}
+td{padding:8px 10px;border:1px solid var(--line);vertical-align:top}
+figure{margin:20px 0}
+figure img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:3px}
+figcaption{font-size:12px;color:var(--muted);margin-top:6px}
+.refs{font-size:12.5px;color:#45505e;padding-left:26px}
+.refs li:target{background:#fff6b8}
+.foot{font-size:12px;color:var(--muted);text-align:center;padding:0 24px 40px}
+
+@media(max-width:900px){
+  .layout{grid-template-columns:minmax(0,1fr);padding:16px 12px 48px}
+  .toc{position:static;background:#fff;border:1px solid var(--line);border-radius:4px;padding:14px 16px}
+  .toc ol{display:flex;flex-wrap:wrap;gap:4px 14px;border:0}
+  .toc a{padding:2px 0;border:0;margin:0}
+  .paper{padding:28px 18px;font-size:14px}
+  .paper h1{font-size:24px}
+  .bar-inner{padding:10px 12px;flex-wrap:wrap;gap:8px 12px}
+  .bar .status{flex-basis:100%;order:3;font-size:12px}
+  table{min-width:520px}
+}
+@media print{.bar,.toc{display:none}.layout{display:block;padding:0}.paper{border:0;padding:0;max-width:none}h2{break-before:page}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
