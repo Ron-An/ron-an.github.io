@@ -20,7 +20,7 @@ button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid var
 .brand-symbol{font-family:var(--font);color:var(--blue);font-size:38px;line-height:1;letter-spacing:-3px;margin-right:3px}
 .wordmark-note{font-size:.75rem;letter-spacing:1.8px;font-weight:500;color:var(--muted);border-left:1px solid var(--line);padding-left:14px;margin-left:3px}
 .site-header nav{display:flex;gap:30px;font-size:.875rem;color:var(--muted)}
-.site-header nav a{padding-block:14px}
+.site-header nav a{padding-block:14px;white-space:nowrap}
 .site-header nav a:hover{color:var(--blue)}
 .hero{display:grid;grid-template-columns:1.3fr 1fr;column-gap:50px;padding-top:70px}
 .hero-copy{padding-top:38px}
@@ -146,3 +146,5 @@ details[open] .interest-symbol:after{transform:rotate(0)}
 
 
 .notes-grid{align-items:stretch}.note-card{min-height:0;padding-bottom:28px}@media(max-width:760px){.hero-quote h1{font-size:clamp(1.65rem,6.8vw,2.75rem);line-height:1.55}.quote-context{font-size:.875rem;margin-top:18px}.quote-credit{font-size:.875rem}.quote-credit span{font-size:.75rem}.note-card{padding-bottom:24px}}
+/* 메뉴가 4개라 좁은 화면에서는 메뉴를 로고 아래 줄로 내린다 */
+@media(max-width:760px){.site-header{flex-wrap:wrap;row-gap:0;padding-block:10px}}
