@@ -146,5 +146,5 @@ details[open] .interest-symbol:after{transform:rotate(0)}
 
 
 .notes-grid{align-items:stretch}.note-card{min-height:0;padding-bottom:28px}@media(max-width:760px){.hero-quote h1{font-size:clamp(1.65rem,6.8vw,2.75rem);line-height:1.55}.quote-context{font-size:.875rem;margin-top:18px}.quote-credit{font-size:.875rem}.quote-credit span{font-size:.75rem}.note-card{padding-bottom:24px}}
-/* 메뉴가 4개라 좁은 화면에서는 메뉴를 로고 아래 줄로 내린다 */
-@media(max-width:760px){.site-header{flex-wrap:wrap;row-gap:0;padding-block:10px}}
+/* 메뉴가 여러 개라 좁은 화면에서는 메뉴를 로고 아래 줄로 내리고, 넘치면 메뉴끼리도 줄을 바꾼다 */
+@media(max-width:760px){.site-header{flex-wrap:wrap;row-gap:0;padding-block:10px}.site-header nav{flex-wrap:wrap;column-gap:14px;row-gap:0}}
