@@ -1,0 +1,147 @@
+<!DOCTYPE html><html lang="ko"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><script async src="https://www.googletagmanager.com/gtm.js?id=GTM-5ZX6JFCF"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());</script><title>포스트-GPU시대, 주목해야 할 AI: CLE 편 · Odd Pick.</title><meta name="description" content="오늘은, 저번 아티클에 이어 새롭게 주목받고 있는 피지컬 AI 소식을 전해드립니다."><link rel="canonical" href="https://ron-an.github.io/writing/cle/"><meta property="og:site_name" content="Odd Pick."><meta property="og:title" content="포스트-GPU시대, 주목해야 할 AI: CLE 편"><meta property="og:description" content="오늘은, 저번 아티클에 이어 새롭게 주목받고 있는 피지컬 AI 소식을 전해드립니다."><meta property="og:url" content="https://ron-an.github.io/writing/cle/"><meta property="og:type" content="article"><meta property="og:image" content="https://ron-an.github.io/_astro/cover.DFmmsiHH_2ilt7h.jpg"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23284b63'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia,serif' font-style='italic' font-weight='bold' font-size='42' fill='white'%3Eo.%3C/text%3E%3C/svg%3E"><link rel="sitemap" href="/sitemap.xml"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"포스트-GPU시대, 주목해야 할 AI: CLE 편","description":"오늘은, 저번 아티클에 이어 새롭게 주목받고 있는 피지컬 AI 소식을 전해드립니다.","datePublished":"2026-02-04","dateModified":"2026-02-04","author":{"@type":"Person","name":"오드픽","url":"https://ron-an.github.io/about/"},"publisher":{"@type":"Organization","name":"Odd Pick.","url":"https://ron-an.github.io/"},"mainEntityOfPage":"https://ron-an.github.io/writing/cle/","url":"https://ron-an.github.io/writing/cle/","inLanguage":"ko-KR","articleSection":"Research","keywords":"기술, 산업","image":["https://ron-an.github.io/_astro/cover.DFmmsiHH_2ilt7h.jpg"],"isBasedOn":"https://brunch.co.kr/@akn9090/7"}</script><link rel="stylesheet" href="/_astro/Base.IOXz1mKe.css"></head> <body> <a class="skip" href="#main">본문 바로가기</a> <div class="site"> <header class="wrap"> <div class="topline"><a href="/" class="signature"><span class="sig">o.</span> 오드픽의 기록</a></div> <div class="mast"> <a class="logo" href="/" aria-label="Odd Pick 홈">Odd <i>Pick</i><b>.</b></a> <nav class="nav" aria-label="주요 메뉴"><a href="/">Home</a><a href="/writing/" aria-current="page">Writing</a><a href="/projects/">Projects</a><a href="/about/">About</a></nav> </div> </header> <main class="main" id="main" tabindex="-1"> <div class="wrap padbottom"> <a href="/writing/" class="back">Writing / 글 목록</a> <div class="readerhead"> <div class="meta"><span lang="en">Research</span><span>기술 · 산업</span></div> <h1>포스트-GPU시대, 주목해야 할 AI: CLE 편</h1> <p class="deck">스타트업 톺아보기 #6 - 피지컬 AI의 눈과 뇌, 로봇 자동화의 미래</p> <div class="byline"> <span>오드픽</span> <time datetime="2026-02-04">작성 2026. 02. 04.</time>  <a class="textlink" href="https://brunch.co.kr/@akn9090/7" rel="noopener">브런치 원문</a> </div> </div> <figure class="readpic">  <img src="/_astro/cover.DFmmsiHH_6ophT.webp" srcset="/_astro/cover.DFmmsiHH_6ophT.webp 1x, /_astro/cover.DFmmsiHH_Z1uGjfj.webp 2x" alt="로봇 팔 끝의 3D 스캐너가 파란 광선으로 금속 차체 부품을 스캔하고, 옆에 디지털 와이어프레임이 떠 있는 공장 장면" loading="eager" fetchpriority="high" decoding="async" width="1000" height="545">  </figure> <div class="prose"><p>안녕하세요, 오드픽 (Odd_pick)입니다.</p>
+<p>매우 늦었지만 새해 복 많이 받으세요!</p>
+<p>저는 계절학기 종강을 하고, 소논문 한 편을 쓰고 이사를 했습니다. 한 달에 한 번은 올리기 위해서 1월에 미뤄두었던 아티클을 부랴부랴 올려봅니다.</p>
+<p><img alt="두 컷 만화: &#39;여봐요, 누구시길래 그리 바쁘게 가십니까?&#39;라고 묻자 &#39;청춘&#39;이라 적힌 인물이 &#39;너의 20대.&#39;라고 답함" loading="lazy" decoding="async" width="300" height="412" src="/_astro/img-01.CvsvbbSP_1bL9KN.webp"></p>
+<p>오늘은, 저번 아티클에 이어 새롭게 주목받고 있는 피지컬 AI 소식을 전해드립니다.</p>
+<hr>
+<p>[AI] #AI #피지컬AI #스타트업</p>
+<h2 id="포스트-gpu-시대-주목해야-할-ai-기업들---cle-robotics-inc-편">포스트-GPU 시대, 주목해야 할 AI 기업들 - CLE Robotics Inc. 편</h2>
+<h3 id="피지컬-ai의-눈과-뇌-cle가-보는-로봇-자동화의-미래">피지컬 AI의 눈과 뇌, CLE가 보는 로봇 자동화의 미래</h3>
+<h4 id="ces-2026으로-본-ai의-현재와-미래-조언자에서-행위자로">CES 2026으로 본 AI의 현재와 미래: '조언자'에서 '행위자'로</h4>
+<p>올해도 어김없이 라스베이거스에서 <a href="https://www.ces.tech/">CES 2026</a>이 개최되었습니다. 이전 직장에서 전사적으로 공을 들이던 행사라 그런지, 저에게는 매년 산업의 향방을 가늠하는 연례행사와 같습니다.</p>
+<p>지난 아티클에서 AI가 접목된 산업들은 돈이 되는 주 사업 영역이 '추론과 개인화' 영역으로 이동할 것이라 말씀드렸는데, 이번 CES는 물리적 세계에서 직접 물체를 집어 들고, 조립하며, 스스로 길을 찾는 구체적인 형태인 <strong>'피지컬 AI(Physical AI)'</strong>의 서막을 보여주었습니다. 이제 AI는 공장 바닥과 창고로 내려와 직접 근육을 움직이기 시작했습니다.</p>
+<h4 id="피지컬-ai의-현재-뇌ai와-근육robot의-결합-vs-로보틱스">피지컬 AI의 현재: 뇌(AI)와 근육(Robot)의 결합 (vs 로보틱스)</h4>
+<p><img alt="CES 2026: NVIDIA Rubin 플랫폼·오픈 모델·자율주행으로 그리는 미래" loading="lazy" decoding="async" width="960" height="510" src="/_astro/img-02.D0CYeFgM_Lk5WO.webp"></p>
+<p><em>CES 2026: NVIDIA Rubin 플랫폼·오픈 모델·자율주행으로 그리는 미래</em></p>
+<p>이 전환을 가장 공격적으로 밀어붙이는 곳 중 하나가 NVIDIA입니다. <a href="https://blogs.nvidia.com/blog/open-models-data-tools-accelerate-ai/?utm_source=chatgpt.com">엔비디아는 최근 GTC와 공식 발표를 통해 에이전트형 AI용 Nemotron, Physical AI를 위한 Cosmos, 로보틱스를 위한 Isaac GR00T 등 <strong>현실 세계에서 보고-판단하고-움직이게 만드는</strong> 모델·데이터·툴을 한 묶음으로 확장한다고 공식 발표했습니다.</a></p>
+<p>그렇다면 우리가 흔히 알던 '로봇'과 '피지컬 AI'는 무엇이 다를까요?</p>
+<ul>
+<li>지능의 유무: 기존 로봇이 사전에 프로그래밍된 경로만 따라가는 '로봇'이라면, 피지컬 AI는 물리 법칙을 이해하고 상황에 맞춰 행동을 결정하는 자율성을 가진 'AI'에 가깝습니다.</li>
+<li>스스로의 판단: 이 과정에서 알고리즘 기반의 지시 사항만 수행하던 방식에서 벗어나, 피지컬 AI는 비정형 데이터(이미지, 영상 등)를 보고 스스로 판단하고 학습합니다.</li>
+<li>물리적 상호작용: 화면 속 가상 세계가 아닌, 중력과 마찰력이 존재하는 현실 세계에서 인간과 안전하게 협력하며 작업을 수행하는 것이 핵심입니다.</li>
+</ul>
+<p>핵심은 로봇이 아니라, 현실에서 작동하는 AI 시스템 전체(센서–연산–제어–검증)의 스택이 재편된다는 데 있습니다.</p>
+<p>산업 현장에서 피지컬 AI는 이미 실험실을 나와 실전에 배치되고 있습니다. 이번 CES에서는 화려한 휴머노이드뿐만 아니라 실제 공정에서 활용되는 로봇들과 기반 기술들이 대거 등장했습니다.</p>
+<blockquote>
+<p><a href="https://blogs.nvidia.co.kr/blog/2026-ces-special-presentation/">NVIDIA의 풀스택 공세:</a> 엔비디아는 누구나 피지컬 AI를 개발할 수 있도록 Cosmos(월드 파운데이션 모델)와 GR00T(휴머노이드 모델)를 공개하며 기술 스택을 제공하고 있습니다.</p>
+</blockquote>
+<blockquote>
+<p><a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-thor/">차세대 에지 컴퓨팅:</a>차세대 아키텍처인 '블랙웰(Blackwell)' 기반의 Jetson Thor는 이전 <a href="https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-orin/">NVIDIA AGX Orin™</a> 대비 7.5배 향상된 연산 성능을 제공하며 로봇의 실시간 추론을 가능케 합니다.</p>
+</blockquote>
+<blockquote>
+<p><a href="https://robohub.org/new-frontiers-in-robotics-at-ces-2026/">휴머노이드의 진화:</a>현대차(보스턴 다이나믹스)의 아틀라스와 그 밖의 유니트리, 에이로봇 등이 선보인 휴머노이드는 하드웨어 기술의 정점을 보여주며 산업 적용 가능성을 강하게 시사했습니다.</p>
+</blockquote>
+<p>그럼 또 질문이 생깁니다. 행동하는 AI가 산업에서 실제로 돈이 되는 지점은 어디일까요?</p>
+<h4 id="피지컬-ai의-본진은-휴머노이드가-아니라-제조다">피지컬 AI의 본진은 휴머노이드가 아니라 ‘제조’다</h4>
+<p><a href="https://www.ces.tech/videos/robotics-in-a-new-era-powered-by-physical-ai/">영상을 통해 확인한 각 나라와 기업들의 휴머노이드들은 아주 놀라웠습니다.</a> 아주 훌륭한 쇼케이스였죠. 하지만 현대차(보스턴 다이나믹스)의 아틀라스에서도 보았듯이, 기업이 ROI를 따지게 되면 무게 추는 지금 가장 수요가 큰 <strong>제조·생산 현장, 특히 ‘사람이 남아 있는 공정’</strong>으로 이동하게 될 것입니다. 자동화가 많이 진행된 공장에서도 여전히 사람이 붙어 있는 작업이 있고, <strong>그 작업이 대개 병목이 됩니다.</strong></p>
+<p><strong>흥미로운 건, 그 병목이 힘(토크)이나 속도(스루풋) 이전에 ‘인식’에서 시작되는 경우가 많다는 점입니다.</strong> 로봇이 집거나 끼우거나 검사해야 하는 대상이 '매번 같은 위치에, 같은 각도로, 같은 조명에서' 등장한다면 자동화는 상대적으로 쉽겠지만 현실은 아주 다르죠.</p>
+<p><strong><u>부품은 불규칙하게 쌓여 있고(랜덤 빈 피킹), 표면은 검정·유광·반사체일 수 있으며, 조립은 각도와 위치 오차에 민감하고, 검사는 미세 단차(플러시/갭) 같은 3D 오차를 요구합니다.</u></strong></p>
+<p>결국 이 지점이 피지컬 AI의 현실적인 시작점일 것입니다. '로봇이 더 똑똑해져야 한다'가 아니라, 로봇이 세계를 ‘정확한 3D’로 보게 만들어야 한다는 것. <strong><u>즉 피지컬 AI의 가장 기초 레이어는 ‘언어’가 아니라 ‘센싱·비전’ 일 것입니다.</u></strong></p>
+<h4 id="왜-지금-로보틱스-ai-보다-3d-머신비전이-중요한가">왜 지금 로보틱스, AI 보다 3D 머신비전이 중요한가?</h4>
+<p>지금 산업 현장은 많은 부분이 자동화되어 있습니다. 병목이 되는 '휴먼터치'가 들어가는 부분도 인간이 처리할 수밖에 없는 노하우가 들어가거나, 기계보다 인간이 더 빠르거나 저렴하기 때문입니다. 따라서 자동화가 고도화될수록, 기업들은 인간 대신 기계가 더 빠르고 저렴하게 일을 처리할 수 있는 부분에 관심을 갖게 될 것입니다.</p>
+<p><strong>이를 처리하기 위해선 우선 로봇팔이나 시뮬레이션 모델보다 더 아래 레이어의 기술들로 내려가야 합니다.</strong></p>
+<p><strong>로봇이 지금 무엇을, 어디에, 어떤 자세로 보고 있는가에 대한 센싱과 비전(눈) 문제를 해결할 수 없다면 로보틱스(근육)와 AI(두뇌)도 무용지물일 것입니다.</strong></p>
+<p><img alt="제조/생산 공정에서 물체 인식의 어려움은 생각보다 다양하고 복잡합니다." loading="lazy" decoding="async" width="1198" height="591" src="/_astro/img-03.T2ZrvGI2_Z2eebNA.webp"></p>
+<p><em>제조/생산 공정에서 물체 인식의 어려움은 생각보다 다양하고 복잡합니다.</em></p>
+<p>현실의 ‘물체’는 단지 좌표(X, Y, Z)만으로 존재하지 않습니다. 자세(roll, pitch, yaw), 표면 특성, 반사, 가림(occlusion), 공정 속도 변화까지 포함한 복합 상태로 존재합니다. 이 상태를 안정적으로 복원하지 못하면 로봇 제어는 아무리 정교해도 실패합니다. 반대로 말하면, <strong>3D 인식이 안정화되는 순간 조립·피킹·검사라는 고난도 공정이 연쇄적으로 열린다고 할 수 있습니다. 자동화가 덜 되어서가 아니라, 로봇이 ‘제대로 보지 못하기’ 때문입니다.</strong></p>
+<h4 id="클레cle의-솔루션-로봇의-눈과-시각-피질">클레(CLE)의 솔루션: 로봇의 눈과 시각 피질</h4>
+<p>사람은 물체를 볼 때, 깊이와 각도와 표면을 동시에 인식합니다. 반사되든, 어둡든, 겹쳐 있든 상관없이 ‘입체적으로’ 파악합니다. 하지만 로봇은 그렇지 못합니다. 대부분의 비전 시스템은 여전히 2D 정보에 의존하거나, 불완전한 3D 정보를 기반으로 추정합니다.</p>
+<p><a href="https://cle.vision/">CLE Robotics</a>는 바로 이 ‘로봇의 시각 한계’를 해결하는 회사입니다. 이들은 <strong>고정밀 3D 스캔 하드웨어</strong>와 <strong>GPU 기반 병렬 처리 소프트웨어</strong>를 수직 통합하여 물리 세계의 난제를 정면 돌파합니다.</p>
+<p><img alt="3D 비전 출력 예시 6장: 공구가 놓인 탁자의 Color Image, Depth Map, Normal Map, Confidence Map, Color Textured Point Cloud, Color Coded Point Cloud" loading="lazy" decoding="async" width="1388" height="904" src="/_astro/img-04.BznZjHnj_1wOz7.webp"></p>
+<div class="tablewrap" role="region" aria-label="클레의 핵심 기술" tabindex="0">
+<table>
+<thead>
+<tr>
+<th>항목</th>
+<th>핵심 기술</th>
+<th>비유 및 원리</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>하드웨어</strong></td>
+<td><strong>구조광 (Structured Light)</strong></td>
+<td>어두운 방에서 물체의 모양을 알기 위해 격자무늬 그물망 빛을 활용해 빛의 휘어짐을 분석하여 ±0.1mm급의 초정밀 지도를 그립니다.</td>
+</tr>
+<tr>
+<td><strong>소프트웨어</strong></td>
+<td><strong>CUDA 기반 병렬 처리</strong></td>
+<td>GPU로 연산 속도를 획기적으로 높여 로봇의 실시간 제어를 가능케 합니다.</td>
+</tr>
+<tr>
+<td><strong>알고리즘</strong></td>
+<td><strong>AI 기반 보정</strong></td>
+<td>반사물체나 어두운 물체에서 발생하는 노이즈를 AI가 실시간으로 제거하여 안정적인 데이터 품질을 유지합니다.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>쉽게 말해, 구조광 방식으로 3D 형상을 만들고, GPU 기반 병렬 처리로 공정 속도를 맞추며, AI 보정으로 난반사·어두운 물체에서 데이터 품질을 유지하고, 그 결과를 로봇 가이던스로 바로 전달하는 구조를 가지고 있습니다.</p>
+<p>여기서 중요한 건 '3D 카메라를 만든다'가 아니라, <strong>3D 데이터 획득(구조광)–GPU 병렬 연산–AI 기반 보정–6 DoF 포즈 추정–로봇 가이던스 연동</strong>을 하나의 파이프라인으로 묶는다는 데 있습니다.</p>
+<p>다시 말해, CLE는 단순히 ‘검사 장비 회사’가 아니라 로봇 자동화를 가능하게 하는 인식+제어 패키지에 가깝습니다. 공장 입장에서 이 차이는 큽니다. 장비를 하나 더 들여놓는 것이 아니라, <strong>사람이 하던 공정을 로봇이 할 수 있는 상태로 바꾸는 투자</strong>이기 때문이죠.</p>
+<p>Cognex, Keyence 등 기존 머신비전의 강자들은 2D 검사, 레이저 기반 측정에서 검증된 업력과 강점을 갖고 있지만, 반사체·검은색·복잡 형상·정밀 6DoF(위치&amp;자세 고려)·실시간 처리에서 제약이 존재합니다. 반사체/검정 물체처럼 신호가 불안정한 대상은 센서 방식만 바꾼다고 해결되지 않고, 후처리(보정), 연산 성능(실시간), 데이터 품질(노이즈 제거)이 결합되어야 합니다. <strong>즉, 피지컬 AI와 GPU의 발전으로 머신 비전과 산업용 피지컬 AI의 경쟁 포인트가 ‘카메라’에서 ‘스택’으로 새롭게 바뀌고 있습니다.</strong></p>
+<p>앞서 말씀드린 엔비디아가 굳이 Cosmos(Physical AI)·GR00T(로보틱스)·Nemotron(에이전트) 같은 묶음을 오픈 모델/데이터/툴 형태로 확장하는 것도 같은 맥락으로 보입니다. 현실 세계에서 학습·검증·배포를 빠르게 만들겠다는 의도입니다. <strong>지금 피지컬 AI는 휴머노이드라는 슈퍼스타가 아니라, 센서→연산→모델→시뮬레이션/검증의 산업적 인프라가 동시에 성숙하면서 열리고 있는 새로운 산업인 셈입니다. 그리고 CLE는 이 흐름을 '제조 현장에서 바로 돈이 되는 문제'로 좁혀서 풀고 있는 회사로 보입니다.</strong></p>
+<h4 id="미래의-cle는-어떻게-될까">미래의 CLE는 어떻게 될까?</h4>
+<p>CLE는 기술력 좋은 회사를 넘어 전략적 요충지를 잘 점유한 팀으로 보입니다. 글로벌 피지컬 AI 유니콘들과 비교해 보면 좀 더 명확히 살펴볼 수 있습니다.</p>
+<div class="tablewrap wide" role="region" aria-label="글로벌 피지컬 AI 기업 비교" tabindex="0">
+<table>
+<thead>
+<tr>
+<th>구분</th>
+<th>Intrinsic (Alphabet)</th>
+<th>Covariant (US)</th>
+<th>Pickle Robot (US)</th>
+<th>클레 (CLE) (Korea)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>핵심 포지션</strong></td>
+<td>범용 로봇 OS &amp; 플랫폼</td>
+<td>AI 'Brain' 소프트웨어</td>
+<td>물류 자동화 (트럭 하차) 전문</td>
+<td>초정밀 제조 비전 &amp; 제어</td>
+</tr>
+<tr>
+<td><strong>핵심 기술</strong></td>
+<td>Flowstate<br>(로우코드 개발 환경)</td>
+<td>RFM-1<br>(80억 파라미터 파운데이션 모델)</td>
+<td>생성형 AI 기반 물류 데이터 학습</td>
+<td>구조광 3D + GPU 병렬 연산<br>(±0.1mm)</td>
+</tr>
+<tr>
+<td><strong>주요 타겟</strong></td>
+<td>산업용 로봇 개발자/솔루션 빌더</td>
+<td>물류 창고(Picking), 리테일</td>
+<td>물류 터미널, 택배 상차/하차</td>
+<td>자동차, 배터리, 고정밀 조립</td>
+</tr>
+<tr>
+<td><strong>최근 성과</strong></td>
+<td>NVIDIA Isaac 플랫폼과 통합</td>
+<td>RFM-1 발표, 글로벌 파트너십 확장</td>
+<td>시리즈 B 5천만 달러 유치</td>
+<td>시리즈 A 160억 원 유치</td>
+</tr>
+<tr>
+<td><strong>차별화 포인트</strong></td>
+<td>구글의 자본력과 ROS 생태계 흡수</td>
+<td>범용적인 물체 조작 지능 (Picking)</td>
+<td>가장 힘들고 위험한 '하차' 시장 선점</td>
+<td>난반사/검정 물체 극복 &amp; 높은 정밀도</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>클레는 이들이 집중한 범용성이나 지능과 차별화되는, 더 크고 난이도 높은 '정밀 제조' 시장을 타깃으로 버티컬 챔피언이 되는 전략을 사용하고 있습니다. 제조 생산 공정에 치명적인 문제임 '병목' 문제를 풀고 있고, 대체가 어려운 높은 정밀도를 보유하고 있으며, 카메라(하드웨어) + 비전 알고리즘(AI) + 로봇 제어(Control)를 수직 통합해 시너지를 내고 도입 장벽을 낮추고 있습니다. 또한 <a href="https://www.thebell.co.kr/front/newsview.asp?click=F&amp;key=202509081048506840104272">현대차/기아차</a>와 <a href="https://platum.kr/archives/277363">일본 자동차 기업</a>의 제조 공정에서 실제 성과 개선에 PoC로 사용되며 실제 현장에서의 개선 성과를 보여주고 있습니다.</p>
+<p>또한 공장은 특정 로봇만 쓰지 않습니다. 라인마다 로봇 브랜드가 다르고, 협동 로봇과 산업용 로봇이 섞이고, 레거시 시스템이 남아 있습니다. 이때 가장 확장성이 높은 건 특정 로봇에 종속되지 않는 인식/좌표 레이어입니다. 그래서 3D 머신비전에 집중한 CLE 제조 분야에서 더 높은 확장성과 효율을 가져갈 수 있습니다.</p>
+<p>다만 하드웨어가 들어가는 사업은 공급망, 설치, 유지보수, AS가 따라옵니다. 레퍼런스를 쉽게 쌓기 어렵고, PoC에서 양산 전환까지 시간이 걸릴 수 있습니다. 특정 대형 고객 의존도도 높아질 수 있습니다. 그래서 CLE가 장기적으로 더 커지기 위해서는, 판매 외 반복 매출 구조와 공정 패키지화가 중요해질 것입니다.</p>
+<p>허나 기술과 성과 검증이 끝나고 실제 조립 라인에 많이 도입되기 시작한다면, 라인 가동률과 직결되는 3D 비전 알고리즘을 다른 기술로 교체하기 힘들고, 현장에서 수많은 비정 3D 데이터를 통해 기술을 고도화할 수 있기 때문에 해자를 잘 쌓을 수 있을 것으로 기대됩니다.</p>
+<h4 id="먼-미래가-아닌-지금-당장의-피지컬-ai">먼 미래가 아닌, 지금 당장의 피지컬 AI</h4>
+<p><img alt="영화 &#39;아이, 로봇&#39;의 한 장면: 줄지어 선 휴머노이드 로봇들 사이에서 권총을 든 남성" loading="lazy" decoding="async" width="966" height="538" src="/_astro/img-07.DISrmrKm_Z1XM7vD.webp"></p>
+<p>피지컬 AI를 이야기할 때 우리는 종종 '아이로봇'을 떠올립니다. 인간보다 인간 같은 휴머노이드와, 그 휴머노이드가 가져올 혁신과 문제 모두를요. 허무맹랑한 것 같지만 저는 '아이로봇'이 현실화될 것이라 믿고 있습니다. 언젠간요. 그러나 지금 당장, 현실의 피지컬 AI는 움직임 이전에 인식에서부터 막힙니다. 인식이 해결되면 법이 허용하는 선 안에서 생각보다 더 빨리 로봇이 인간을 대체하고, 일상에 변화가 찾아올 겁니다. 제조/생산에서의 조립·피킹·검사 같은 고부가가치 공정도 연쇄적으로 열릴 것입니다.</p>
+<p>그래서 지금 CLE 같은 회사가 흥미롭습니다. '아이로봇'같은 화려한 데모보다 현장에서 필요한 문제를 풀고 있죠. 피지컬 AI의 미래를 믿는다면, 결국 그 미래를 가장 먼저 현실로 만드는 곳은 ‘휴머노이드 무대’가 아니라 ‘공장 바닥’ 일 가능성이 큽니다. 그리고 그 바닥에서 지금 중요한 건, 로봇이 아니라 로봇의 눈입니다.</p>
+<hr>
+<p>+) 한동안 급진적인 AI 기술 발전은 어려울 것이다라는 뉴스가 쏟아졌던 것 같은데 AI 분야는 그 말을 비웃듯 항상 새로운 소식이 튀어나오는 것 같습니다. 정말 예측하기 어렵고, 그만큼 재밌는 것 같습니다. 주식 시장처럼요..</p>
+<p>오늘 기업을 추천해 주신 '정주영'님께 감사드립니다. 기업과 아티클 거리 추천은 늘 환영입니다.</p>
+</div> <aside class="related"> <div class="sectitle"><h2 class="display">Related<small>함께 읽기</small></h2></div> <a href="/writing/zilliz/">포스트-GPU시대, 주목해야 할 AI: Zilliz편</a><a href="/writing/datacenter-cooling/">AI 버블에 올라타라: 데이터센터 &#39;냉각&#39;</a> </aside> </div> </main> <footer class="footer"><div class="wrap"><a class="logo" href="/">Odd <i>Pick.</i></a><a class="textlink" href="https://brunch.co.kr/@akn9090" rel="noopener">브런치</a></div></footer> </div> </body> </html>

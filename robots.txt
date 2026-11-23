@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ron-an.github.io/sitemap.xml
